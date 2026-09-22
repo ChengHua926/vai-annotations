@@ -1,0 +1,983 @@
+{
+ "benchmark": "tau",
+ "domain": "airline",
+ "policy": {
+  "segments": [
+   {
+    "heading": "Airline Agent Policy",
+    "id": "airline-p01-s01",
+    "paragraph": 1,
+    "sentence": 1,
+    "text": "The current time is 2024-05-15 15:00:00 EST."
+   },
+   {
+    "heading": "Airline Agent Policy",
+    "id": "airline-p02-s02",
+    "paragraph": 2,
+    "sentence": 2,
+    "text": "As an airline agent, you can help users **book**, **modify**, or **cancel** flight reservations."
+   },
+   {
+    "heading": "Airline Agent Policy",
+    "id": "airline-p02-s03",
+    "paragraph": 2,
+    "sentence": 3,
+    "text": "You also handle **refunds and compensation**."
+   },
+   {
+    "heading": "Airline Agent Policy",
+    "id": "airline-p03-s04",
+    "paragraph": 3,
+    "sentence": 4,
+    "text": "Before taking any actions that update the booking database (booking, modifying flights, editing baggage, changing cabin class, or updating passenger information), you must list the action details and obtain explicit user confirmation (yes) to proceed."
+   },
+   {
+    "heading": "Airline Agent Policy",
+    "id": "airline-p04-s05",
+    "paragraph": 4,
+    "sentence": 5,
+    "text": "You should not provide any information, knowledge, or procedures not provided by the user or available tools, or give subjective recommendations or comments."
+   },
+   {
+    "heading": "Airline Agent Policy",
+    "id": "airline-p05-s06",
+    "paragraph": 5,
+    "sentence": 6,
+    "text": "You should only make one tool call at a time, and if you make a tool call, you should not respond to the user simultaneously."
+   },
+   {
+    "heading": "Airline Agent Policy",
+    "id": "airline-p05-s07",
+    "paragraph": 5,
+    "sentence": 7,
+    "text": "If you respond to the user, you should not make a tool call at the same time."
+   },
+   {
+    "heading": "Airline Agent Policy",
+    "id": "airline-p06-s08",
+    "paragraph": 6,
+    "sentence": 8,
+    "text": "You should deny user requests that are against this policy."
+   },
+   {
+    "heading": "Airline Agent Policy",
+    "id": "airline-p07-s09",
+    "paragraph": 7,
+    "sentence": 9,
+    "text": "You should transfer the user to a human agent if and only if the request cannot be handled within the scope of your actions."
+   },
+   {
+    "heading": "Airline Agent Policy",
+    "id": "airline-p07-s10",
+    "paragraph": 7,
+    "sentence": 10,
+    "text": "To transfer, first make a tool call to transfer_to_human_agents, and then send the message 'YOU ARE BEING TRANSFERRED TO A HUMAN AGENT."
+   },
+   {
+    "heading": "Airline Agent Policy",
+    "id": "airline-p07-s11",
+    "paragraph": 7,
+    "sentence": 11,
+    "text": "PLEASE HOLD ON.' to the user."
+   },
+   {
+    "heading": "User",
+    "id": "airline-p08-s12",
+    "paragraph": 8,
+    "sentence": 12,
+    "text": "Each user has a profile containing:"
+   },
+   {
+    "heading": "User",
+    "id": "airline-p08-s13",
+    "paragraph": 8,
+    "sentence": 13,
+    "text": "- user id"
+   },
+   {
+    "heading": "User",
+    "id": "airline-p08-s14",
+    "paragraph": 8,
+    "sentence": 14,
+    "text": "- email"
+   },
+   {
+    "heading": "User",
+    "id": "airline-p08-s15",
+    "paragraph": 8,
+    "sentence": 15,
+    "text": "- addresses"
+   },
+   {
+    "heading": "User",
+    "id": "airline-p08-s16",
+    "paragraph": 8,
+    "sentence": 16,
+    "text": "- date of birth"
+   },
+   {
+    "heading": "User",
+    "id": "airline-p08-s17",
+    "paragraph": 8,
+    "sentence": 17,
+    "text": "- payment methods"
+   },
+   {
+    "heading": "User",
+    "id": "airline-p08-s18",
+    "paragraph": 8,
+    "sentence": 18,
+    "text": "- membership level"
+   },
+   {
+    "heading": "User",
+    "id": "airline-p08-s19",
+    "paragraph": 8,
+    "sentence": 19,
+    "text": "- reservation numbers"
+   },
+   {
+    "heading": "User",
+    "id": "airline-p09-s20",
+    "paragraph": 9,
+    "sentence": 20,
+    "text": "There are three types of payment methods: **credit card**, **gift card**, **travel certificate**."
+   },
+   {
+    "heading": "User",
+    "id": "airline-p10-s21",
+    "paragraph": 10,
+    "sentence": 21,
+    "text": "There are three membership levels: **regular**, **silver**, **gold**."
+   },
+   {
+    "heading": "Flight",
+    "id": "airline-p11-s22",
+    "paragraph": 11,
+    "sentence": 22,
+    "text": "Each flight has the following attributes:"
+   },
+   {
+    "heading": "Flight",
+    "id": "airline-p11-s23",
+    "paragraph": 11,
+    "sentence": 23,
+    "text": "- flight number"
+   },
+   {
+    "heading": "Flight",
+    "id": "airline-p11-s24",
+    "paragraph": 11,
+    "sentence": 24,
+    "text": "- origin"
+   },
+   {
+    "heading": "Flight",
+    "id": "airline-p11-s25",
+    "paragraph": 11,
+    "sentence": 25,
+    "text": "- destination"
+   },
+   {
+    "heading": "Flight",
+    "id": "airline-p11-s26",
+    "paragraph": 11,
+    "sentence": 26,
+    "text": "- scheduled departure and arrival time (local time)"
+   },
+   {
+    "heading": "Flight",
+    "id": "airline-p12-s27",
+    "paragraph": 12,
+    "sentence": 27,
+    "text": "A flight can be available at multiple dates."
+   },
+   {
+    "heading": "Flight",
+    "id": "airline-p12-s28",
+    "paragraph": 12,
+    "sentence": 28,
+    "text": "For each date:"
+   },
+   {
+    "heading": "Flight",
+    "id": "airline-p12-s29",
+    "paragraph": 12,
+    "sentence": 29,
+    "text": "- If the status is **available**, the flight has not taken off, available seats and prices are listed."
+   },
+   {
+    "heading": "Flight",
+    "id": "airline-p12-s30",
+    "paragraph": 12,
+    "sentence": 30,
+    "text": "- If the status is **delayed** or **on time**, the flight has not taken off, cannot be booked."
+   },
+   {
+    "heading": "Flight",
+    "id": "airline-p12-s31",
+    "paragraph": 12,
+    "sentence": 31,
+    "text": "- If the status is **flying**, the flight has taken off but not landed, cannot be booked."
+   },
+   {
+    "heading": "Flight",
+    "id": "airline-p13-s32",
+    "paragraph": 13,
+    "sentence": 32,
+    "text": "There are three cabin classes: **basic economy**, **economy**, **business**. **basic economy** is its own class, completely distinct from **economy**."
+   },
+   {
+    "heading": "Flight",
+    "id": "airline-p14-s33",
+    "paragraph": 14,
+    "sentence": 33,
+    "text": "Seat availability and prices are listed for each cabin class."
+   },
+   {
+    "heading": "Reservation",
+    "id": "airline-p15-s34",
+    "paragraph": 15,
+    "sentence": 34,
+    "text": "Each reservation specifies the following:"
+   },
+   {
+    "heading": "Reservation",
+    "id": "airline-p15-s35",
+    "paragraph": 15,
+    "sentence": 35,
+    "text": "- reservation id"
+   },
+   {
+    "heading": "Reservation",
+    "id": "airline-p15-s36",
+    "paragraph": 15,
+    "sentence": 36,
+    "text": "- user id"
+   },
+   {
+    "heading": "Reservation",
+    "id": "airline-p15-s37",
+    "paragraph": 15,
+    "sentence": 37,
+    "text": "- trip type"
+   },
+   {
+    "heading": "Reservation",
+    "id": "airline-p15-s38",
+    "paragraph": 15,
+    "sentence": 38,
+    "text": "- flights"
+   },
+   {
+    "heading": "Reservation",
+    "id": "airline-p15-s39",
+    "paragraph": 15,
+    "sentence": 39,
+    "text": "- passengers"
+   },
+   {
+    "heading": "Reservation",
+    "id": "airline-p15-s40",
+    "paragraph": 15,
+    "sentence": 40,
+    "text": "- payment methods"
+   },
+   {
+    "heading": "Reservation",
+    "id": "airline-p15-s41",
+    "paragraph": 15,
+    "sentence": 41,
+    "text": "- created time"
+   },
+   {
+    "heading": "Reservation",
+    "id": "airline-p15-s42",
+    "paragraph": 15,
+    "sentence": 42,
+    "text": "- baggages"
+   },
+   {
+    "heading": "Reservation",
+    "id": "airline-p15-s43",
+    "paragraph": 15,
+    "sentence": 43,
+    "text": "- travel insurance information"
+   },
+   {
+    "heading": "Reservation",
+    "id": "airline-p16-s44",
+    "paragraph": 16,
+    "sentence": 44,
+    "text": "There are two types of trip: **one way** and **round trip**."
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p17-s45",
+    "paragraph": 17,
+    "sentence": 45,
+    "text": "The agent must first obtain the user id from the user."
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p18-s46",
+    "paragraph": 18,
+    "sentence": 46,
+    "text": "The agent should then ask for the trip type, origin, destination."
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p19-s47",
+    "paragraph": 19,
+    "sentence": 47,
+    "text": "Cabin:"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p19-s48",
+    "paragraph": 19,
+    "sentence": 48,
+    "text": "- Cabin class must be the same across all the flights in a reservation."
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p20-s49",
+    "paragraph": 20,
+    "sentence": 49,
+    "text": "Passengers:"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p20-s50",
+    "paragraph": 20,
+    "sentence": 50,
+    "text": "- Each reservation can have at most five passengers."
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p20-s51",
+    "paragraph": 20,
+    "sentence": 51,
+    "text": "- The agent needs to collect the first name, last name, and date of birth for each passenger."
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p20-s52",
+    "paragraph": 20,
+    "sentence": 52,
+    "text": "- All passengers must fly the same flights in the same cabin."
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p21-s53",
+    "paragraph": 21,
+    "sentence": 53,
+    "text": "Payment:"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p21-s54",
+    "paragraph": 21,
+    "sentence": 54,
+    "text": "- Each reservation can use at most one travel certificate, at most one credit card, and at most three gift cards."
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p21-s55",
+    "paragraph": 21,
+    "sentence": 55,
+    "text": "- The remaining amount of a travel certificate is not refundable."
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p21-s56",
+    "paragraph": 21,
+    "sentence": 56,
+    "text": "- All payment methods must already be in user profile for safety reasons."
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p22-s57",
+    "paragraph": 22,
+    "sentence": 57,
+    "text": "Checked bag allowance:"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p22-s58",
+    "paragraph": 22,
+    "sentence": 58,
+    "text": "- If the booking user is a regular member:"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p22-s59",
+    "paragraph": 22,
+    "sentence": 59,
+    "text": "- 0 free checked bag for each basic economy passenger"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p22-s60",
+    "paragraph": 22,
+    "sentence": 60,
+    "text": "- 1 free checked bag for each economy passenger"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p22-s61",
+    "paragraph": 22,
+    "sentence": 61,
+    "text": "- 2 free checked bags for each business passenger"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p22-s62",
+    "paragraph": 22,
+    "sentence": 62,
+    "text": "- If the booking user is a silver member:"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p22-s63",
+    "paragraph": 22,
+    "sentence": 63,
+    "text": "- 1 free checked bag for each basic economy passenger"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p22-s64",
+    "paragraph": 22,
+    "sentence": 64,
+    "text": "- 2 free checked bag for each economy passenger"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p22-s65",
+    "paragraph": 22,
+    "sentence": 65,
+    "text": "- 3 free checked bags for each business passenger"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p22-s66",
+    "paragraph": 22,
+    "sentence": 66,
+    "text": "- If the booking user is a gold member:"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p22-s67",
+    "paragraph": 22,
+    "sentence": 67,
+    "text": "- 2 free checked bag for each basic economy passenger"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p22-s68",
+    "paragraph": 22,
+    "sentence": 68,
+    "text": "- 3 free checked bag for each economy passenger"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p22-s69",
+    "paragraph": 22,
+    "sentence": 69,
+    "text": "- 4 free checked bags for each business passenger"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p22-s70",
+    "paragraph": 22,
+    "sentence": 70,
+    "text": "- Each extra baggage is 50 dollars."
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p23-s71",
+    "paragraph": 23,
+    "sentence": 71,
+    "text": "Do not add checked bags that the user does not need."
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p24-s72",
+    "paragraph": 24,
+    "sentence": 72,
+    "text": "Travel insurance:"
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p24-s73",
+    "paragraph": 24,
+    "sentence": 73,
+    "text": "- The agent should ask if the user wants to buy the travel insurance."
+   },
+   {
+    "heading": "Book flight",
+    "id": "airline-p24-s74",
+    "paragraph": 24,
+    "sentence": 74,
+    "text": "- The travel insurance is 30 dollars per passenger and enables full refund if the user needs to cancel the flight given health or weather reasons."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p25-s75",
+    "paragraph": 25,
+    "sentence": 75,
+    "text": "First, the agent must obtain the user id and reservation id."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p25-s76",
+    "paragraph": 25,
+    "sentence": 76,
+    "text": "- The user must provide their user id."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p25-s77",
+    "paragraph": 25,
+    "sentence": 77,
+    "text": "- If the user doesn't know their reservation id, the agent should help locate it using available tools."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p26-s78",
+    "paragraph": 26,
+    "sentence": 78,
+    "text": "Change flights:"
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p26-s79",
+    "paragraph": 26,
+    "sentence": 79,
+    "text": "- Basic economy flights cannot be modified."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p26-s80",
+    "paragraph": 26,
+    "sentence": 80,
+    "text": "- Other reservations can be modified without changing the origin, destination, and trip type."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p26-s81",
+    "paragraph": 26,
+    "sentence": 81,
+    "text": "- Some flight segments can be kept, but their prices will not be updated based on the current price."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p26-s82",
+    "paragraph": 26,
+    "sentence": 82,
+    "text": "- The API does not check these for the agent, so the agent must make sure the rules apply before calling the API!"
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p27-s83",
+    "paragraph": 27,
+    "sentence": 83,
+    "text": "Change cabin:"
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p27-s84",
+    "paragraph": 27,
+    "sentence": 84,
+    "text": "- Cabin cannot be changed if any flight in the reservation has already been flown."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p27-s85",
+    "paragraph": 27,
+    "sentence": 85,
+    "text": "- In other cases, all reservations, including basic economy, can change cabin without changing the flights."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p27-s86",
+    "paragraph": 27,
+    "sentence": 86,
+    "text": "- Cabin class must remain the same across all the flights in the same reservation; changing cabin for just one flight segment is not possible."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p27-s87",
+    "paragraph": 27,
+    "sentence": 87,
+    "text": "- If the price after cabin change is higher than the original price, the user is required to pay for the difference."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p27-s88",
+    "paragraph": 27,
+    "sentence": 88,
+    "text": "- If the price after cabin change is lower than the original price, the user is should be refunded the difference."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p28-s89",
+    "paragraph": 28,
+    "sentence": 89,
+    "text": "Change baggage and insurance:"
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p28-s90",
+    "paragraph": 28,
+    "sentence": 90,
+    "text": "- The user can add but not remove checked bags."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p28-s91",
+    "paragraph": 28,
+    "sentence": 91,
+    "text": "- The user cannot add insurance after initial booking."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p29-s92",
+    "paragraph": 29,
+    "sentence": 92,
+    "text": "Change passengers:"
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p29-s93",
+    "paragraph": 29,
+    "sentence": 93,
+    "text": "- The user can modify passengers but cannot modify the number of passengers."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p29-s94",
+    "paragraph": 29,
+    "sentence": 94,
+    "text": "- Even a human agent cannot modify the number of passengers."
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p30-s95",
+    "paragraph": 30,
+    "sentence": 95,
+    "text": "Payment:"
+   },
+   {
+    "heading": "Modify flight",
+    "id": "airline-p30-s96",
+    "paragraph": 30,
+    "sentence": 96,
+    "text": "- If the flights are changed, the user needs to provide a single gift card or credit card for payment or refund method. The payment method must already be in user profile for safety reasons."
+   },
+   {
+    "heading": "Cancel flight",
+    "id": "airline-p31-s97",
+    "paragraph": 31,
+    "sentence": 97,
+    "text": "First, the agent must obtain the user id and reservation id."
+   },
+   {
+    "heading": "Cancel flight",
+    "id": "airline-p31-s98",
+    "paragraph": 31,
+    "sentence": 98,
+    "text": "- The user must provide their user id."
+   },
+   {
+    "heading": "Cancel flight",
+    "id": "airline-p31-s99",
+    "paragraph": 31,
+    "sentence": 99,
+    "text": "- If the user doesn't know their reservation id, the agent should help locate it using available tools."
+   },
+   {
+    "heading": "Cancel flight",
+    "id": "airline-p32-s100",
+    "paragraph": 32,
+    "sentence": 100,
+    "text": "The agent must also obtain the reason for cancellation (change of plan, airline cancelled flight, or other reasons)"
+   },
+   {
+    "heading": "Cancel flight",
+    "id": "airline-p33-s101",
+    "paragraph": 33,
+    "sentence": 101,
+    "text": "If any portion of the flight has already been flown, the agent cannot help and transfer is needed."
+   },
+   {
+    "heading": "Cancel flight",
+    "id": "airline-p34-s102",
+    "paragraph": 34,
+    "sentence": 102,
+    "text": "Otherwise, flight can be cancelled if any of the following is true:"
+   },
+   {
+    "heading": "Cancel flight",
+    "id": "airline-p34-s103",
+    "paragraph": 34,
+    "sentence": 103,
+    "text": "- The booking was made within the last 24 hrs"
+   },
+   {
+    "heading": "Cancel flight",
+    "id": "airline-p34-s104",
+    "paragraph": 34,
+    "sentence": 104,
+    "text": "- The flight is cancelled by airline"
+   },
+   {
+    "heading": "Cancel flight",
+    "id": "airline-p34-s105",
+    "paragraph": 34,
+    "sentence": 105,
+    "text": "- It is a business flight"
+   },
+   {
+    "heading": "Cancel flight",
+    "id": "airline-p34-s106",
+    "paragraph": 34,
+    "sentence": 106,
+    "text": "- The user has travel insurance and the reason for cancellation is covered by insurance."
+   },
+   {
+    "heading": "Cancel flight",
+    "id": "airline-p35-s107",
+    "paragraph": 35,
+    "sentence": 107,
+    "text": "The API does not check that cancellation rules are met, so the agent must make sure the rules apply before calling the API!"
+   },
+   {
+    "heading": "Cancel flight",
+    "id": "airline-p36-s108",
+    "paragraph": 36,
+    "sentence": 108,
+    "text": "Refund:"
+   },
+   {
+    "heading": "Cancel flight",
+    "id": "airline-p36-s109",
+    "paragraph": 36,
+    "sentence": 109,
+    "text": "- The refund will go to original payment methods within 5 to 7 business days."
+   },
+   {
+    "heading": "Refunds and Compensation",
+    "id": "airline-p37-s110",
+    "paragraph": 37,
+    "sentence": 110,
+    "text": "Do not proactively offer a compensation unless the user explicitly asks for one."
+   },
+   {
+    "heading": "Refunds and Compensation",
+    "id": "airline-p38-s111",
+    "paragraph": 38,
+    "sentence": 111,
+    "text": "Do not compensate if the user is regular member and has no travel insurance and flies (basic) economy."
+   },
+   {
+    "heading": "Refunds and Compensation",
+    "id": "airline-p39-s112",
+    "paragraph": 39,
+    "sentence": 112,
+    "text": "Always confirms the facts before offering compensation."
+   },
+   {
+    "heading": "Refunds and Compensation",
+    "id": "airline-p40-s113",
+    "paragraph": 40,
+    "sentence": 113,
+    "text": "Only compensate if the user is a silver/gold member or has travel insurance or flies business."
+   },
+   {
+    "heading": "Refunds and Compensation",
+    "id": "airline-p41-s114",
+    "paragraph": 41,
+    "sentence": 114,
+    "text": "- If the user complains about cancelled flights in a reservation, the agent can offer a certificate as a gesture after confirming the facts, with the amount being $100 times the number of passengers."
+   },
+   {
+    "heading": "Refunds and Compensation",
+    "id": "airline-p42-s115",
+    "paragraph": 42,
+    "sentence": 115,
+    "text": "- If the user complains about delayed flights in a reservation and wants to change or cancel the reservation, the agent can offer a certificate as a gesture after confirming the facts and changing or cancelling the reservation, with the amount being $50 times the number of passengers."
+   },
+   {
+    "heading": "Refunds and Compensation",
+    "id": "airline-p43-s116",
+    "paragraph": 43,
+    "sentence": 116,
+    "text": "Do not offer compensation for any other reason than the ones listed above."
+   }
+  ]
+ },
+ "run": "ext-216",
+ "schema_version": 1,
+ "steps": [
+  {
+   "index": 0,
+   "text": "Hi! How can I help you today?",
+   "type": "assistant_message"
+  },
+  {
+   "index": 1,
+   "text": "Hello! I\u2019d like to make a reservation for my friend, Ivan Smith. I want the booking to be exactly the same as my current reservation. Also, I want to use my certificate if the price is higher than $400; otherwise, I\u2019ll use my gift card and credit card. Could you help me with that?",
+   "type": "user_message"
+  },
+  {
+   "index": 2,
+   "text": "I'd be happy to help you book a reservation for your friend that's similar to your current one! \n\nTo get started, I'll need your user ID so I can look up your current reservation details. Could you please provide your user ID?",
+   "type": "assistant_message"
+  },
+  {
+   "index": 3,
+   "text": "Sure, my user ID is ivan_muller_7015.",
+   "type": "user_message"
+  },
+  {
+   "args": {
+    "user_id": "ivan_muller_7015"
+   },
+   "error": false,
+   "index": 4,
+   "result": "{\"user_id\": \"ivan_muller_7015\", \"name\": {\"first_name\": \"Ivan\", \"last_name\": \"Muller\"}, \"address\": {\"address1\": \"256 Pine Lane\", \"address2\": \"Suite 661\", \"city\": \"New York\", \"country\": \"USA\", \"state\": \"NY\", \"zip\": \"10029\"}, \"email\": \"ivan.muller6623@example.com\", \"dob\": \"1968-04-25\", \"payment_methods\": {\"certificate_8998287\": {\"source\": \"certificate\", \"id\": \"certificate_8998287\", \"amount\": 500.0}, \"credit_card_3563913\": {\"source\": \"credit_card\", \"id\": \"credit_card_3563913\", \"brand\": \"mastercard\", \"last_four\": \"6710\"}, \"gift_card_8516878\": {\"source\": \"gift_card\", \"id\": \"gift_card_8516878\", \"amount\": 128.0}}, \"saved_passengers\": [{\"first_name\": \"Ivan\", \"last_name\": \"Smith\", \"dob\": \"1986-03-14\"}, {\"first_name\": \"Lucas\", \"last_name\": \"Davis\", \"dob\": \"1988-10-12\"}], \"membership\": \"gold\", \"reservations\": [\"G72NSF\"]}",
+   "result_truncated": false,
+   "tool": "get_user_details",
+   "tool_call_id": "call_2af4",
+   "type": "tool_call"
+  },
+  {
+   "index": 5,
+   "text": "I can see your profile, Ivan. You have a gold membership and a saved passenger named Ivan Smith. Let me look up your current reservation details so I can book the same flights for your friend.",
+   "type": "assistant_message"
+  },
+  {
+   "args": {
+    "reservation_id": "G72NSF"
+   },
+   "error": false,
+   "index": 6,
+   "result": "{\"reservation_id\": \"G72NSF\", \"user_id\": \"ivan_muller_7015\", \"origin\": \"DTW\", \"destination\": \"SEA\", \"flight_type\": \"one_way\", \"cabin\": \"economy\", \"flights\": [{\"flight_number\": \"HAT097\", \"origin\": \"DTW\", \"destination\": \"PHX\", \"date\": \"2024-05-17\", \"price\": 158}, {\"flight_number\": \"HAT251\", \"origin\": \"PHX\", \"destination\": \"SEA\", \"date\": \"2024-05-17\", \"price\": 141}], \"passengers\": [{\"first_name\": \"Ivan\", \"last_name\": \"Muller\", \"dob\": \"1968-04-25\"}, {\"first_name\": \"Isabella\", \"last_name\": \"Moore\", \"dob\": \"1952-01-28\"}], \"payment_history\": [{\"payment_id\": \"gift_card_8516878\", \"amount\": 658}], \"created_at\": \"2024-05-11T19:32:36\", \"total_baggages\": 2, \"nonfree_baggages\": 0, \"insurance\": \"yes\", \"status\": null}",
+   "result_truncated": false,
+   "tool": "get_reservation_details",
+   "tool_call_id": "call_bb2b",
+   "type": "tool_call"
+  },
+  {
+   "index": 7,
+   "text": "I found your current reservation. Here are the details:\n\n**Your Current Reservation (G72NSF):**\n- **Route:** Detroit (DTW) \u2192 Seattle (SEA) - One way\n- **Cabin:** Economy\n- **Flights:**\n  1. HAT097: DTW \u2192 PHX on May 17, 2024\n  2. HAT251: PHX \u2192 SEA on May 17, 2024\n- **Passengers:** 2 passengers\n- **Baggage:** 2 total bags (0 extra)\n- **Insurance:** Yes\n- **Total Paid:** $658\n\nNow let me check the current availability and pricing for these same flights to book for Ivan Smith.",
+   "type": "assistant_message"
+  },
+  {
+   "args": {
+    "date": "2024-05-17",
+    "destination": "PHX",
+    "origin": "DTW"
+   },
+   "error": false,
+   "index": 8,
+   "result": "[{\"flight_number\": \"HAT035\", \"origin\": \"DTW\", \"destination\": \"PHX\", \"status\": \"available\", \"scheduled_departure_time_est\": \"15:00:00\", \"scheduled_arrival_time_est\": \"19:00:00\", \"date\": null, \"available_seats\": {\"basic_economy\": 18, \"economy\": 4, \"business\": 15}, \"prices\": {\"basic_economy\": 58, \"economy\": 178, \"business\": 271}}, {\"flight_number\": \"HAT097\", \"origin\": \"DTW\", \"destination\": \"PHX\", \"status\": \"available\", \"scheduled_departure_time_est\": \"07:00:00\", \"scheduled_arrival_time_est\": \"11:00:00\", \"date\": null, \"available_seats\": {\"basic_economy\": 0, \"economy\": 7, \"business\": 2}, \"prices\": {\"basic_economy\": 89, \"economy\": 175, \"business\": 400}}, {\"flight_number\": \"HAT275\", \"origin\": \"DTW\", \"destination\": \"PHX\", \"status\": \"available\", \"scheduled_departure_time_est\": \"00:00:00\", \"scheduled_arrival_time_est\": \"04:00:00\", \"date\": null, \"available_seats\": {\"basic_economy\": 9, \"economy\": 15, \"business\": 17}, \"prices\": {\"basic_economy\": 53, \"economy\": 142, \"business\": 481}}]",
+   "result_truncated": false,
+   "tool": "search_direct_flight",
+   "tool_call_id": "call_573f",
+   "type": "tool_call"
+  },
+  {
+   "args": {
+    "date": "2024-05-17",
+    "destination": "SEA",
+    "origin": "PHX"
+   },
+   "error": false,
+   "index": 9,
+   "result": "[{\"flight_number\": \"HAT045\", \"origin\": \"PHX\", \"destination\": \"SEA\", \"status\": \"available\", \"scheduled_departure_time_est\": \"23:00:00\", \"scheduled_arrival_time_est\": \"02:00:00+1\", \"date\": null, \"available_seats\": {\"basic_economy\": 8, \"economy\": 11, \"business\": 14}, \"prices\": {\"basic_economy\": 63, \"economy\": 137, \"business\": 449}}, {\"flight_number\": \"HAT156\", \"origin\": \"PHX\", \"destination\": \"SEA\", \"status\": \"available\", \"scheduled_departure_time_est\": \"07:00:00\", \"scheduled_arrival_time_est\": \"10:00:00\", \"date\": null, \"available_seats\": {\"basic_economy\": 11, \"economy\": 16, \"business\": 4}, \"prices\": {\"basic_economy\": 63, \"economy\": 171, \"business\": 244}}, {\"flight_number\": \"HAT251\", \"origin\": \"PHX\", \"destination\": \"SEA\", \"status\": \"available\", \"scheduled_departure_time_est\": \"12:00:00\", \"scheduled_arrival_time_est\": \"15:00:00\", \"date\": null, \"available_seats\": {\"basic_economy\": 2, \"economy\": 12, \"business\": 15}, \"prices\": {\"basic_economy\": 97, \"economy\": 200, \"business\": 345}}, {\"flight_number\": \"HAT267\", \"origin\": \"PHX\", \"destination\": \"SEA\", \"status\": \"available\", \"scheduled_departure_time_est\": \"01:00:00\", \"scheduled_arrival_time_est\": \"04:00:00\", \"date\": null, \"available_seats\": {\"basic_economy\": 1, \"economy\": 5, \"business\": 12}, \"prices\": {\"basic_economy\": 75, \"economy\": 181, \"business\": 431}}]",
+   "result_truncated": false,
+   "tool": "search_direct_flight",
+   "tool_call_id": "call_5721",
+   "type": "tool_call"
+  },
+  {
+   "index": 10,
+   "text": "I found your current reservation and the same flights are available. Here's the booking summary for Ivan Smith:\n\n**Booking Details:**\n- **Route:** Detroit (DTW) \u2192 Seattle (SEA) - One way\n- **Cabin:** Economy\n- **Flights:**\n  1. HAT097: DTW \u2192 PHX on May 17, 2024 (7:00 AM - 11:00 AM EST)\n  2. HAT251: PHX \u2192 SEA on May 17, 2024 (12:00 PM - 3:00 PM EST)\n- **Passenger:** Ivan Smith (DOB: 1986-03-14)\n- **Baggage:** 2 total bags (0 extra - within your free allowance as a gold member)\n- **Insurance:** Yes ($30)\n\n**Cost Breakdown:**\n- Flight costs: $375\n- Travel insurance: $30\n- **Total: $405**\n\n**Payment:**\nSince the total is $405 (higher than $400), you'll use your certificate:\n- Certificate: certificate_8998287 ($500)\n- Remaining balance after booking: $95\n\n**Please confirm:** Do you want me to proceed with booking this reservation for Ivan Smith with the above details? Please respond with \"yes\" to confirm.",
+   "type": "assistant_message"
+  },
+  {
+   "index": 11,
+   "text": "Thank you for the summary. However, I do not want any baggage or insurance included in the booking. Could you please update the booking without baggage and insurance and let me know the new total cost and payment details?",
+   "type": "user_message"
+  },
+  {
+   "index": 12,
+   "text": "Understood! Here's the updated booking summary without baggage and insurance:\n\n**Booking Details:**\n- **Route:** Detroit (DTW) \u2192 Seattle (SEA) - One way\n- **Cabin:** Economy\n- **Flights:**\n  1. HAT097: DTW \u2192 PHX on May 17, 2024 (7:00 AM - 11:00 AM EST)\n  2. HAT251: PHX \u2192 SEA on May 17, 2024 (12:00 PM - 3:00 PM EST)\n- **Passenger:** Ivan Smith (DOB: 1986-03-14)\n- **Baggage:** 0 total bags\n- **Insurance:** No\n\n**Cost Breakdown:**\n- Flight costs: $375\n- Travel insurance: $0\n- **Total: $375**\n\n**Payment:**\nSince the total is $375 (lower than $400), you'll use your gift card and credit card:\n- Gift card: gift_card_8516878 ($128)\n- Credit card: credit_card_3563913 ($247 remaining)\n\n**Please confirm:** Do you want me to proceed with booking this reservation for Ivan Smith with the above details? Please respond with \"yes\" to confirm.",
+   "type": "assistant_message"
+  },
+  {
+   "index": 13,
+   "text": "Yes, please go ahead and proceed with the booking for Ivan Smith using the gift card and credit card as outlined. Thank you!",
+   "type": "user_message"
+  },
+  {
+   "args": {
+    "cabin": "economy",
+    "destination": "SEA",
+    "flight_type": "one_way",
+    "flights": [
+     {
+      "date": "2024-05-17",
+      "flight_number": "HAT097"
+     },
+     {
+      "date": "2024-05-17",
+      "flight_number": "HAT251"
+     }
+    ],
+    "insurance": "no",
+    "nonfree_baggages": 0,
+    "origin": "DTW",
+    "passengers": [
+     {
+      "dob": "1986-03-14",
+      "first_name": "Ivan",
+      "last_name": "Smith"
+     }
+    ],
+    "payment_methods": [
+     {
+      "amount": 128,
+      "payment_id": "gift_card_8516878"
+     },
+     {
+      "amount": 247,
+      "payment_id": "credit_card_3563913"
+     }
+    ],
+    "total_baggages": 0,
+    "user_id": "ivan_muller_7015"
+   },
+   "error": false,
+   "index": 14,
+   "result": "{\"reservation_id\": \"HATHAT\", \"user_id\": \"ivan_muller_7015\", \"origin\": \"DTW\", \"destination\": \"SEA\", \"flight_type\": \"one_way\", \"cabin\": \"economy\", \"flights\": [{\"flight_number\": \"HAT097\", \"origin\": \"DTW\", \"destination\": \"PHX\", \"date\": \"2024-05-17\", \"price\": 175}, {\"flight_number\": \"HAT251\", \"origin\": \"PHX\", \"destination\": \"SEA\", \"date\": \"2024-05-17\", \"price\": 200}], \"passengers\": [{\"first_name\": \"Ivan\", \"last_name\": \"Smith\", \"dob\": \"1986-03-14\"}], \"payment_history\": [{\"payment_id\": \"gift_card_8516878\", \"amount\": 128}, {\"payment_id\": \"credit_card_3563913\", \"amount\": 247}], \"created_at\": \"2024-05-15T15:00:00\", \"total_baggages\": 0, \"nonfree_baggages\": 0, \"insurance\": \"no\", \"status\": null}",
+   "result_truncated": false,
+   "tool": "book_reservation",
+   "tool_call_id": "call_217b",
+   "type": "tool_call"
+  },
+  {
+   "index": 15,
+   "text": "Your booking is confirmed! Here are the details:\n\n**Reservation Confirmation**\n- **Reservation ID:** HATHAT\n- **Passenger:** Ivan Smith\n- **Route:** Detroit (DTW) \u2192 Seattle (SEA) - One way\n- **Cabin:** Economy\n- **Flights:**\n  1. HAT097: DTW \u2192 PHX on May 17, 2024 (7:00 AM - 11:00 AM EST)\n  2. HAT251: PHX \u2192 SEA on May 17, 2024 (12:00 PM - 3:00 PM EST)\n- **Baggage:** 0 checked bags\n- **Insurance:** No\n- **Total Paid:** $375\n  - Gift card: $128\n  - Credit card: $247\n\nThe booking has been successfully completed. Is there anything else I can help you with?",
+   "type": "assistant_message"
+  },
+  {
+   "index": 16,
+   "text": "No, that's all for now. Thank you very much for your help! Have a great day! \n\n###STOP###",
+   "type": "user_message"
+  }
+ ],
+ "user_scenario": "Reason for call:\nYou want to make a reservation for your friend. It should be exactly the same as your current reservation.\n\nKnown info:\nYou are Ivan Muller.\n\nYour user id is ivan_muller_7015.\n\nYour friends name is Ivan Smith.\n\nHe is listed in your user profile.\n\nUnknown info:\nYou can't remember Ivan Smith's DOB but it is in your profile.\n\nTask instructions:\nYou want to use your certificate and know how much certificate balance will be left. You will ONLY accept a new booking with just him as the passenger. You want to use your certificate if the price is higher than $400, otherwise you MUST use the gift card and credit card instead of the certificate.\n\nNo baggage and insurance."
+}

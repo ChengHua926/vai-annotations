@@ -1,0 +1,3 @@
+- tau2-bench / tau3-bench: Copyright (c) 2025 Sierra Research, MIT License. `tau/policies/*.md` and the task content inside `tau/traces/` come from that benchmark.
+- env0 / ClawsBench: BenchFlow, GNU Affero General Public License v3.0. `clawsbench/policies/assistant_v1.md` and the task content inside `clawsbench/traces/` come from that benchmark.
+- The agent transcripts inside the traces were produced by GLM-4.7-Flash, Qwen3-30B-A3B, and GLM-5.2, with GPT-4.1-mini as the tau3-bench user simulator; the votes were produced by Claude Fable 5, GPT-5.6 Sol, and Kimi K3.
