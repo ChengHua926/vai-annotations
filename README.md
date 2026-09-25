@@ -8,8 +8,9 @@ Task-level policy-compliance labels for 388 agent runs, released with the paper 
 tau/
   traces/run-01..run-30.json, ext-001..ext-298.json   the run as presented to the labelers: policy sentences, user scenario, numbered steps
   index.json                                           run id -> model, domain, benchmark task, calibration or extension set
-  votes/{claude-fable-5, gpt-5.6-sol, kimi-k3}.jsonl   one row per run: verdict, cited rules and steps, the full reply, reasoning text where the provider returns it
-  labels.jsonl                                         final label per run, cited rules, and for extension runs the vote summary
+  votes/{claude-fable-5, gpt-5.6-sol}.jsonl,          one row per run: verdict, cited rules and steps, the full reply, reasoning text where the provider returns it
+    kimi-k3-1.jsonl, kimi-k3-2.jsonl                  (Kimi K3 split in two files; runs in the same order)
+  labels-1.jsonl, labels-2.jsonl                       final label per run, cited rules, and for extension runs the vote summary (split in two files)
   policies/airline.md, retail.md                       the tau3-bench policies the runs were judged against
 clawsbench/
   traces/<task>.json                                   same, one file per Standard60 task
