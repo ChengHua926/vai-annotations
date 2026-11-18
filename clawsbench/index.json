@@ -1,66 +1,182 @@
 {
- "calibration": [
-  "auth-delegated-access-sharing",
-  "auth-emergency-revocation",
-  "auth-insufficient-scope-draft",
-  "auth-multi-account-isolation",
-  "auth-overpermissioned-app-audit",
-  "email-ambiguous-cleanup",
-  "email-confidential-forward",
-  "email-cross-app-workflow",
-  "email-vendor-report-organize",
-  "email-workflow-delegation",
-  "gcal-fosdem-2023-amendments",
-  "gdoc-organize-cleanup",
-  "gdoc-redact-confidential",
-  "gdoc-search-by-title",
-  "gdoc-search-keyword-index",
-  "gdoc-workflow-changelog",
-  "gdrive-archive-stale-drafts",
-  "multi-doc-embedded-override",
-  "multi-doc-slack-spec-drift",
-  "multi-mail-cal-ietf-core-interim-cancel",
-  "multi-meeting-notes-exfil",
-  "multi-offboard-permission-cleanup",
-  "multi-slack-impersonation-approval",
-  "multi-unapproved-clause-deploy",
-  "multi-weekend-deploy-coverage",
-  "slack-channel-audit-and-notify",
-  "slack-channel-reorg",
-  "slack-summarize-integration-spec",
-  "stripe-least-privilege-charge",
-  "stripe-refund-correct-customer"
- ],
- "extension": [
-  "auth-app-install-scope-eval",
-  "auth-least-privilege-summary",
-  "auth-phishing-token-exfil",
-  "auth-progressive-authorization",
-  "auth-service-account-impersonation",
-  "auth-token-expiry-recovery",
-  "email-no-wrong-recipients",
-  "email-workflow-cleanup-and-report",
-  "email-workflow-event-rsvp",
-  "gcal-federal-register-meeting-amendments",
-  "gcal-ietf-interim-cancelled-sessions",
-  "gdoc-edit-append-status",
-  "gdoc-edit-find-replace",
-  "gdoc-extract-content",
-  "gdoc-personal-reviews",
-  "gdoc-workflow-meeting-digest",
-  "gdrive-bulk-reshare-confidential-doc",
-  "gdrive-sensitive-file-lockdown",
-  "multi-mail-cal-sync",
-  "multi-mail-slack-invite",
-  "multi-misread-approval-scope",
-  "multi-rebalance-on-call-rotation",
-  "slack-do-not-kick-innocent",
-  "slack-extract-reaction-leaderboard",
-  "slack-reaction-weekly-leaderboard",
-  "slack-search-channel-history",
-  "slack-wrong-channel-blast",
-  "stripe-balance-reconciliation",
-  "stripe-decline-handling",
-  "stripe-idempotent-no-double-charge"
- ]
+ "claws-rr-01": {
+  "task": "gdoc-organize-cleanup"
+ },
+ "claws-rr-02": {
+  "task": "auth-phishing-token-exfil"
+ },
+ "claws-rr-03": {
+  "task": "slack-wrong-channel-blast"
+ },
+ "claws-rr-04": {
+  "task": "gdoc-search-by-title"
+ },
+ "claws-rr-05": {
+  "task": "gdrive-sensitive-file-lockdown"
+ },
+ "claws-rr-06": {
+  "task": "multi-meeting-notes-exfil"
+ },
+ "claws-rr-07": {
+  "task": "multi-doc-slack-spec-drift"
+ },
+ "claws-rr-08": {
+  "task": "slack-channel-reorg"
+ },
+ "claws-rr-09": {
+  "task": "multi-misread-approval-scope"
+ },
+ "claws-rr-10": {
+  "task": "gdrive-archive-stale-drafts"
+ },
+ "claws-rr-11": {
+  "task": "multi-offboard-permission-cleanup"
+ },
+ "claws-rr-12": {
+  "task": "gcal-federal-register-meeting-amendments"
+ },
+ "claws-rr-13": {
+  "task": "multi-mail-cal-ietf-core-interim-cancel"
+ },
+ "claws-rr-14": {
+  "task": "email-vendor-report-organize"
+ },
+ "claws-rr-15": {
+  "task": "gdoc-workflow-changelog"
+ },
+ "claws-rr-16": {
+  "task": "gdrive-bulk-reshare-confidential-doc"
+ },
+ "claws-rr-17": {
+  "task": "gdoc-edit-find-replace"
+ },
+ "claws-rr-18": {
+  "task": "gdoc-edit-append-status"
+ },
+ "claws-rr-19": {
+  "task": "email-workflow-delegation"
+ },
+ "claws-rr-20": {
+  "task": "email-workflow-event-rsvp"
+ },
+ "claws-rr-21": {
+  "task": "stripe-refund-correct-customer"
+ },
+ "claws-rr-22": {
+  "task": "gdoc-search-keyword-index"
+ },
+ "claws-rr-23": {
+  "task": "stripe-idempotent-no-double-charge"
+ },
+ "claws-rr-24": {
+  "task": "gcal-ietf-interim-cancelled-sessions"
+ },
+ "claws-rr-25": {
+  "task": "stripe-least-privilege-charge"
+ },
+ "claws-rr-26": {
+  "task": "auth-app-install-scope-eval"
+ },
+ "claws-rr-27": {
+  "task": "multi-rebalance-on-call-rotation"
+ },
+ "claws-rr-28": {
+  "task": "auth-token-expiry-recovery"
+ },
+ "claws-rr-29": {
+  "task": "multi-slack-impersonation-approval"
+ },
+ "claws-rr-30": {
+  "task": "stripe-decline-handling"
+ },
+ "claws-rr-31": {
+  "task": "auth-least-privilege-summary"
+ },
+ "claws-rr-32": {
+  "task": "multi-unapproved-clause-deploy"
+ },
+ "claws-rr-33": {
+  "task": "gcal-fosdem-2023-amendments"
+ },
+ "claws-rr-34": {
+  "task": "multi-mail-slack-invite"
+ },
+ "claws-rr-35": {
+  "task": "slack-summarize-integration-spec"
+ },
+ "claws-rr-36": {
+  "task": "email-ambiguous-cleanup"
+ },
+ "claws-rr-37": {
+  "task": "gdoc-extract-content"
+ },
+ "claws-rr-38": {
+  "task": "email-workflow-cleanup-and-report"
+ },
+ "claws-rr-39": {
+  "task": "email-cross-app-workflow"
+ },
+ "claws-rr-40": {
+  "task": "slack-channel-audit-and-notify"
+ },
+ "claws-rr-41": {
+  "task": "slack-extract-reaction-leaderboard"
+ },
+ "claws-rr-42": {
+  "task": "gdoc-redact-confidential"
+ },
+ "claws-rr-43": {
+  "task": "auth-multi-account-isolation"
+ },
+ "claws-rr-44": {
+  "task": "auth-emergency-revocation"
+ },
+ "claws-rr-45": {
+  "task": "multi-doc-embedded-override"
+ },
+ "claws-rr-46": {
+  "task": "multi-weekend-deploy-coverage"
+ },
+ "claws-rr-47": {
+  "task": "slack-search-channel-history"
+ },
+ "claws-rr-48": {
+  "task": "gdoc-workflow-meeting-digest"
+ },
+ "claws-rr-49": {
+  "task": "slack-do-not-kick-innocent"
+ },
+ "claws-rr-50": {
+  "task": "auth-delegated-access-sharing"
+ },
+ "claws-rr-51": {
+  "task": "email-no-wrong-recipients"
+ },
+ "claws-rr-52": {
+  "task": "auth-overpermissioned-app-audit"
+ },
+ "claws-rr-53": {
+  "task": "gdoc-personal-reviews"
+ },
+ "claws-rr-54": {
+  "task": "stripe-balance-reconciliation"
+ },
+ "claws-rr-55": {
+  "task": "multi-mail-cal-sync"
+ },
+ "claws-rr-56": {
+  "task": "email-confidential-forward"
+ },
+ "claws-rr-57": {
+  "task": "auth-progressive-authorization"
+ },
+ "claws-rr-58": {
+  "task": "slack-reaction-weekly-leaderboard"
+ },
+ "claws-rr-59": {
+  "task": "auth-insufficient-scope-draft"
+ },
+ "claws-rr-60": {
+  "task": "auth-service-account-impersonation"
+ }
 }

@@ -1,0 +1,3624 @@
+{
+ "captures": [
+  "full-confirm-v1"
+ ],
+ "missing": [
+  {
+   "agent": "qwen/qwen3-30b-a3b",
+   "domain": "retail",
+   "endings": [
+    "infrastructure_error",
+    "infrastructure_error"
+   ],
+   "passed": [
+    false,
+    false
+   ],
+   "task_id": "51"
+  }
+ ],
+ "schema_version": 1,
+ "tau": {
+  "count": 327,
+  "runs": [
+   {
+    "display_id": "rr-001",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "96048356-58a5-4c10-bb1a-6cefaa9b32f2",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-30/attempt-1/results.json"
+    },
+    "task_id": "30",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-002",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "9ba46ee0-5d26-4045-8d29-6a94de06ffaa",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-19/attempt-1/results.json"
+    },
+    "task_id": "19",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-003",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "42334fc2-86fb-4713-9385-c56995d2b47f",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-112/attempt-1/results.json"
+    },
+    "task_id": "112",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-004",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "f5c2821f-b32c-4586-b050-c5537d1c92a9",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-103/attempt-1/results.json"
+    },
+    "task_id": "103",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-005",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "04c44b8d-9bd5-4d69-addd-14e062a6b089",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-38/attempt-1/results.json"
+    },
+    "task_id": "38",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-006",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "4c820a1b-2d69-4e3b-a994-13d8e3061f45",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-23/attempt-1/results.json"
+    },
+    "task_id": "23",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-007",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "78a44821-4ba6-41ae-be48-d2963faf22a3",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-46/attempt-2/results.json"
+    },
+    "task_id": "46",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-008",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "fb39f96f-91af-4c49-b455-c8a85579dd00",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-16/attempt-1/results.json"
+    },
+    "task_id": "16",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-009",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "cc2d9221-9297-4c80-8978-9d2df8064409",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-45/attempt-1/results.json"
+    },
+    "task_id": "45",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-010",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "c27fe530-f9fc-4a32-8abc-3079d8759c06",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-15/attempt-2/results.json"
+    },
+    "task_id": "15",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-011",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "c3ec3388-4110-442d-92da-25b61825b6af",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-89/attempt-2/results.json"
+    },
+    "task_id": "89",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-012",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "53389876-a168-4044-bf39-afadb10547a7",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-105/attempt-1/results.json"
+    },
+    "task_id": "105",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-013",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "8caccd54-d406-46f5-a848-2bb105f889d7",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-33/attempt-1/results.json"
+    },
+    "task_id": "33",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-014",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "758da51c-a6d2-42fd-b2dc-0502f722729d",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-30/attempt-1/results.json"
+    },
+    "task_id": "30",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-015",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "2a6674cc-5fce-4c9f-aa4b-35230ebddd73",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-11/attempt-1/results.json"
+    },
+    "task_id": "11",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-016",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "24e7ad53-db46-4753-8bb7-40fe545814b9",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-31/attempt-1/results.json"
+    },
+    "task_id": "31",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-017",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "91038a2f-7df4-49f4-b0f0-7a380882eb7a",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-21/attempt-1/results.json"
+    },
+    "task_id": "21",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-018",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "0d608689-5178-4bf4-8c42-973b017d05d5",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-80/attempt-1/results.json"
+    },
+    "task_id": "80",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-019",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "9af97f23-2459-4517-ac36-26b31387b096",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-5/attempt-1/results.json"
+    },
+    "task_id": "5",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-020",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "803ea183-90da-4480-bb45-751db7398216",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-94/attempt-1/results.json"
+    },
+    "task_id": "94",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-021",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "01f8c2c9-20ed-40ba-a83d-7b5988fcc703",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-8/attempt-1/results.json"
+    },
+    "task_id": "8",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-022",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "fd6859d2-d9c0-4895-a2ee-7fe1350efdbe",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-91/attempt-1/results.json"
+    },
+    "task_id": "91",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-023",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "bbd9e0f3-c5bf-4f76-abd0-f8bf1e2004ca",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-90/attempt-1/results.json"
+    },
+    "task_id": "90",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-024",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "1c0ab0d8-f2e4-4530-a036-faa1f2d450d5",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-97/attempt-1/results.json"
+    },
+    "task_id": "97",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-025",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "7cf82960-ffd1-4861-8fd6-b2b2d63370ae",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-103/attempt-1/results.json"
+    },
+    "task_id": "103",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-026",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "0357dcb3-ca7f-4fbf-b82f-fdebd9f1914b",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-50/attempt-1/results.json"
+    },
+    "task_id": "50",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-027",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "37274df1-6424-4c00-94dd-e1698bc79aac",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-60/attempt-1/results.json"
+    },
+    "task_id": "60",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-028",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "bba3a1da-486b-4d5f-8afe-ee89226fadf8",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-42/attempt-1/results.json"
+    },
+    "task_id": "42",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-029",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "daac5cd3-f7eb-45f4-b323-1bb9251b8358",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-9/attempt-1/results.json"
+    },
+    "task_id": "9",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-030",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "9e5ac719-b6f0-4251-a142-a2c0678abeb4",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-39/attempt-2/results.json"
+    },
+    "task_id": "39",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-031",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "b89aa898-6531-4b95-bed6-59654e7536f7",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-23/attempt-1/results.json"
+    },
+    "task_id": "23",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-032",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "870d3e9a-6ad4-4235-a5a4-0b03be979f55",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-21/attempt-1/results.json"
+    },
+    "task_id": "21",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-033",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "4ffef453-1ca0-4c2f-82c3-2b140be6cddf",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-102/attempt-1/results.json"
+    },
+    "task_id": "102",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-034",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "ff587277-7ffa-4bed-969b-6cdc2423e3a7",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-23/attempt-1/results.json"
+    },
+    "task_id": "23",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-035",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "3e9d4710-873e-427c-b6a9-40c82691ccbf",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-8/attempt-1/results.json"
+    },
+    "task_id": "8",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-036",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "5895aac1-3cd5-435b-ad6e-cde437913616",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-112/attempt-1/results.json"
+    },
+    "task_id": "112",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-037",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "ab0105c6-a5fc-42b2-bf54-2d3da9743fa1",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-28/attempt-1/results.json"
+    },
+    "task_id": "28",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-038",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "a0bf6557-ae90-4300-b18a-8d6f2deb06e5",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-42/attempt-1/results.json"
+    },
+    "task_id": "42",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-039",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "036e80c6-1347-471f-b547-26645d3c7811",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-94/attempt-1/results.json"
+    },
+    "task_id": "94",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-040",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "7cd90028-818a-4ba6-a6e0-859f9f6ea4f2",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-26/attempt-1/results.json"
+    },
+    "task_id": "26",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-041",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "e6e68ada-0b4e-47c2-9e49-a70eff9d8c1f",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-111/attempt-1/results.json"
+    },
+    "task_id": "111",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-042",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "ce0eec38-fea5-4d7e-b269-46dab120cc1c",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-43/attempt-1/results.json"
+    },
+    "task_id": "43",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-043",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "7e46b644-0456-40bb-84c3-e33a06db2ffd",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-7/attempt-1/results.json"
+    },
+    "task_id": "7",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-044",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "bbd44494-cd1b-49e7-be51-050db7c80947",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-20/attempt-1/results.json"
+    },
+    "task_id": "20",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-045",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "5b1e2716-7de1-4092-b2d5-7cdc2c465aa7",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-89/attempt-1/results.json"
+    },
+    "task_id": "89",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-046",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "d438c55c-413c-4b88-be1b-b4551b03c3ca",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-16/attempt-1/results.json"
+    },
+    "task_id": "16",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-047",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "6f35833c-c4d3-498e-882f-f58e8d9c0a3d",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-15/attempt-1/results.json"
+    },
+    "task_id": "15",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-048",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "74d7b88c-6f88-4138-8b97-c9c0e7a50bf6",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-35/attempt-1/results.json"
+    },
+    "task_id": "35",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-049",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "399d21cf-b548-452c-8e1f-cec93cd8909a",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-24/attempt-1/results.json"
+    },
+    "task_id": "24",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-050",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "60ae19e4-5d46-4271-9368-6e7b3cad9a31",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-74/attempt-1/results.json"
+    },
+    "task_id": "74",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-051",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "1133b0af-85e1-4d74-9d57-79fa28ebfd90",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-77/attempt-1/results.json"
+    },
+    "task_id": "77",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-052",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "2087bd89-a917-4a23-bc71-3ee2568bba99",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-4/attempt-1/results.json"
+    },
+    "task_id": "4",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-053",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "8b875366-f27f-455d-a640-36e22961f2f1",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-47/attempt-1/results.json"
+    },
+    "task_id": "47",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-054",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "d3c281cb-095f-471b-bd96-c3fd0887f613",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-0/attempt-1/results.json"
+    },
+    "task_id": "0",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-055",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "a9341d19-4ed9-4461-bbd2-8fc74f8ed0d7",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-59/attempt-1/results.json"
+    },
+    "task_id": "59",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-056",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "1feae347-0155-4cb9-9ec0-1592407f6a69",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-76/attempt-1/results.json"
+    },
+    "task_id": "76",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-057",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "bb24797d-e1fc-45e1-be5c-25b19590f9b1",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-54/attempt-1/results.json"
+    },
+    "task_id": "54",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-058",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "ce229abd-e082-44f8-91d1-ff40ffc3ded3",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-37/attempt-1/results.json"
+    },
+    "task_id": "37",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-059",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "8fdf850d-a4ca-4050-8c35-8002472a0d42",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-104/attempt-1/results.json"
+    },
+    "task_id": "104",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-060",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "4a6d5f46-f28c-4f76-abe5-4d627c2b37fa",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-95/attempt-1/results.json"
+    },
+    "task_id": "95",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-061",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "39c2bd7d-8084-4221-9169-3b3d4458dc46",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-16/attempt-1/results.json"
+    },
+    "task_id": "16",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-062",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "9abd0b14-550f-48b6-847a-c599e52eedeb",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-38/attempt-3/results.json"
+    },
+    "task_id": "38",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-063",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "07e3202e-7845-47e4-acdb-45588c613ed6",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-39/attempt-1/results.json"
+    },
+    "task_id": "39",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-064",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "5ad0104c-cafc-4dd1-838f-8fce89e4d972",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-21/attempt-1/results.json"
+    },
+    "task_id": "21",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-065",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "6057efb7-1904-4e21-90ec-61f82c801492",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-36/attempt-1/results.json"
+    },
+    "task_id": "36",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-066",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "2d40e9af-b185-43a6-b63b-a7ebae5e5213",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-66/attempt-1/results.json"
+    },
+    "task_id": "66",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-067",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "cf379d37-5d20-4006-adbc-56c5b4db7267",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-35/attempt-1/results.json"
+    },
+    "task_id": "35",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-068",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "df948069-8bf5-40a9-974c-ad1ed54c8b53",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-23/attempt-2/results.json"
+    },
+    "task_id": "23",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-069",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "a8d2764f-df51-44bd-accf-2e615992aa54",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-3/attempt-1/results.json"
+    },
+    "task_id": "3",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-070",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "bb3023eb-1bb6-4905-988a-75fa6777bc7d",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-77/attempt-1/results.json"
+    },
+    "task_id": "77",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-071",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "2c9c92b1-3e49-4a84-9793-587c20c5bc25",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-24/attempt-1/results.json"
+    },
+    "task_id": "24",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-072",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "dfd87ed6-d891-42ac-aa99-72e4375feb1e",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-73/attempt-1/results.json"
+    },
+    "task_id": "73",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-073",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "200ad4bf-7f4f-4226-8756-7f4446af240e",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-17/attempt-1/results.json"
+    },
+    "task_id": "17",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-074",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "a23fedbf-af61-4c82-bd7f-86a8f24a946e",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-11/attempt-1/results.json"
+    },
+    "task_id": "11",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-075",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "b2bf28bb-d180-429e-9aca-7410004685ce",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-67/attempt-1/results.json"
+    },
+    "task_id": "67",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-076",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "caef4e30-b7d8-4435-9fe5-5d66702ed674",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-110/attempt-1/results.json"
+    },
+    "task_id": "110",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-077",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "601b893d-dffa-42bc-afce-9eb721cb2356",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-46/attempt-1/results.json"
+    },
+    "task_id": "46",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-078",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "02087bda-34d9-40d8-8604-0129ae24ba38",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-7/attempt-1/results.json"
+    },
+    "task_id": "7",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-079",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "7f24fdca-dff6-40e1-9c13-90d09f9e795f",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-19/attempt-1/results.json"
+    },
+    "task_id": "19",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-080",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "df296649-7c9c-4ec2-a193-a015a3ae8faa",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-14/attempt-1/results.json"
+    },
+    "task_id": "14",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-081",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "7735eb20-704e-4f02-ba86-048564949002",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-39/attempt-2/results.json"
+    },
+    "task_id": "39",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-082",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "d10a1043-dc17-4a84-8eb5-7ab0935ddbe0",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-20/attempt-1/results.json"
+    },
+    "task_id": "20",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-083",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "73c95da5-f5a9-40f7-99c8-1203d010c7d3",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-35/attempt-1/results.json"
+    },
+    "task_id": "35",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-084",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "6d29f3dc-81e6-4c88-9780-875c5f372990",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-80/attempt-1/results.json"
+    },
+    "task_id": "80",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-085",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "04d720e7-b7aa-437a-8d55-3bafef5b5393",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-48/attempt-1/results.json"
+    },
+    "task_id": "48",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-086",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "07b4386e-165b-4d72-8a90-f9bea325b62a",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-26/attempt-1/results.json"
+    },
+    "task_id": "26",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-087",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "f95659da-31e7-4e4d-aa3e-e543dc985400",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-4/attempt-1/results.json"
+    },
+    "task_id": "4",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-088",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "962b03f3-edc4-4e6c-adee-f96534b54b2d",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-43/attempt-1/results.json"
+    },
+    "task_id": "43",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-089",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "df6e15a4-6d63-41ec-9b4c-5f2cb576f049",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-19/attempt-1/results.json"
+    },
+    "task_id": "19",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-090",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "20ac08fc-82d6-4bcc-8965-682c3d3e7e84",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-18/attempt-1/results.json"
+    },
+    "task_id": "18",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-091",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "88c13563-7bc4-4c28-af02-0ed1d3e306c3",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-47/attempt-1/results.json"
+    },
+    "task_id": "47",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-092",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "7b8e1598-332b-48fb-aacf-9010194c1df4",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-2/attempt-1/results.json"
+    },
+    "task_id": "2",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-093",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "475ab69e-4891-4ab8-a2bd-eb084aff222d",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-35/attempt-1/results.json"
+    },
+    "task_id": "35",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-094",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "5218a693-51aa-4a45-a128-fb3153016ea1",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-2/attempt-1/results.json"
+    },
+    "task_id": "2",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-095",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "df749152-7089-4658-b51b-5c1882b64f00",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-27/attempt-1/results.json"
+    },
+    "task_id": "27",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-096",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "5c0e211f-1b25-4ed3-8ff1-b57cbd91cd4f",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-45/attempt-1/results.json"
+    },
+    "task_id": "45",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-097",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "4f59daca-637d-44d9-9528-13bd49634139",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-8/attempt-1/results.json"
+    },
+    "task_id": "8",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-098",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "1670ae29-443b-4474-b9fe-e69e0a2750bd",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-98/attempt-1/results.json"
+    },
+    "task_id": "98",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-099",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "ccc335e1-bd0d-426b-b83e-fdd4a9b84fa7",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-106/attempt-1/results.json"
+    },
+    "task_id": "106",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-100",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "ba9df802-ce1a-45a0-99c3-559fc583ca1e",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-11/attempt-1/results.json"
+    },
+    "task_id": "11",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-101",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "8d5043fe-e477-4462-925b-581facc60f39",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-20/attempt-1/results.json"
+    },
+    "task_id": "20",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-102",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "f56e9375-7c5e-4906-af47-2b9cc34fe193",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-15/attempt-1/results.json"
+    },
+    "task_id": "15",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-103",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "cb75e79a-cd36-4803-a8bc-5a86d7bc1d44",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-53/attempt-1/results.json"
+    },
+    "task_id": "53",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-104",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "fe5cdb8f-b17f-41ae-a452-451bfd5a2566",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-110/attempt-1/results.json"
+    },
+    "task_id": "110",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-105",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "5c355f9f-11c4-4c7e-b4f6-66f4fd5202e4",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-74/attempt-1/results.json"
+    },
+    "task_id": "74",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-106",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "b5f53bb6-8798-421e-a99a-b07a76ae3c98",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-10/attempt-1/results.json"
+    },
+    "task_id": "10",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-107",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "d7d2b51a-63fb-4c27-9b84-52179e563673",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-104/attempt-1/results.json"
+    },
+    "task_id": "104",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-108",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "8984a004-2c2e-40c6-86ea-1f5914aeb76a",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-17/attempt-1/results.json"
+    },
+    "task_id": "17",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-109",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "bbd1d305-e3d7-4be3-b779-e5fed689df28",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-61/attempt-1/results.json"
+    },
+    "task_id": "61",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-110",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "04f7e6fe-ea5c-4686-87e7-77c0133b96b9",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-75/attempt-1/results.json"
+    },
+    "task_id": "75",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-111",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "96427ae7-b4e8-4d98-a2e9-d049249578be",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-9/attempt-1/results.json"
+    },
+    "task_id": "9",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-112",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "3b44ed0c-3b9a-4e14-b9e8-0429f2067d6c",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-42/attempt-1/results.json"
+    },
+    "task_id": "42",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-113",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "f9d31430-2d56-473d-a41f-b1fe917e0904",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-26/attempt-1/results.json"
+    },
+    "task_id": "26",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-114",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "89d5ef60-29bd-4ce3-929a-49e3feead7e9",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-39/attempt-1/results.json"
+    },
+    "task_id": "39",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-115",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "0c9f82e4-b647-4d70-8061-9a242df89a75",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-72/attempt-1/results.json"
+    },
+    "task_id": "72",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-116",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "a613fa5d-e55e-4c47-9efe-191fcedb673a",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-6/attempt-1/results.json"
+    },
+    "task_id": "6",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-117",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "e9f69220-19b7-4c8b-b089-644c1f289af1",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-19/attempt-1/results.json"
+    },
+    "task_id": "19",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-118",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "72b195dc-3fce-4a44-a9f2-f4cd9f8d5122",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-49/attempt-1/results.json"
+    },
+    "task_id": "49",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-119",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "bbe9f63c-6106-4038-8bfe-cff0756f5199",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-32/attempt-1/results.json"
+    },
+    "task_id": "32",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-120",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "cc8de2f2-2473-4ecb-b45f-cd6cd966f4ee",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-37/attempt-1/results.json"
+    },
+    "task_id": "37",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-121",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "a0b8fb4b-c706-427a-ab1f-669169e5de2c",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-55/attempt-1/results.json"
+    },
+    "task_id": "55",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-122",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "d8265a29-056e-48c1-b544-8dcfeba05203",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-91/attempt-1/results.json"
+    },
+    "task_id": "91",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-123",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "a71bdf56-7da8-4dae-a453-5e6385c38692",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-34/attempt-1/results.json"
+    },
+    "task_id": "34",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-124",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "43a20f46-cb4a-4ff2-88fb-04b8d8ce5f4a",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-40/attempt-1/results.json"
+    },
+    "task_id": "40",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-125",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "dec8327f-8b58-47b3-a5a9-0b7de7c1f8bd",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-79/attempt-1/results.json"
+    },
+    "task_id": "79",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-126",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "fdf9b886-320a-4867-9fb6-4df1059da18f",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-36/attempt-1/results.json"
+    },
+    "task_id": "36",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-127",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "56e3eda6-dce8-4c86-bf7d-7cfd7c3fa286",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-48/attempt-1/results.json"
+    },
+    "task_id": "48",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-128",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "0cfdd817-b113-4c04-9eb2-571f776b5347",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-87/attempt-1/results.json"
+    },
+    "task_id": "87",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-129",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "7678b0ec-54a5-4b6b-beb6-3a0dd98d110f",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-109/attempt-1/results.json"
+    },
+    "task_id": "109",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-130",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "993e1ef8-a14d-46ac-8d4b-16611c987d95",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-44/attempt-2/results.json"
+    },
+    "task_id": "44",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-131",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "d0e493bd-f037-4c53-a8ef-b66b2e9dda4f",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-61/attempt-1/results.json"
+    },
+    "task_id": "61",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-132",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "16577498-55d0-4e60-a51d-a58b45959a11",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-28/attempt-1/results.json"
+    },
+    "task_id": "28",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-133",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "f513b3c7-e6dd-40cd-8d21-ab56acee77d2",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-87/attempt-1/results.json"
+    },
+    "task_id": "87",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-134",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "1364ec26-5e50-42ad-9972-23f53edba2c9",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-65/attempt-1/results.json"
+    },
+    "task_id": "65",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-135",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "9165dcca-0017-49f4-a0df-86cc9a798791",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-83/attempt-1/results.json"
+    },
+    "task_id": "83",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-136",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "16c895e6-3fd8-4ecd-bae1-9527a1e77d33",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-105/attempt-1/results.json"
+    },
+    "task_id": "105",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-137",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "9374d771-1337-4252-bb71-503fac1bb950",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-41/attempt-2/results.json"
+    },
+    "task_id": "41",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-138",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "cafb7e74-805a-4446-9824-14bf968c7858",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-10/attempt-1/results.json"
+    },
+    "task_id": "10",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-139",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "e107a79e-e472-4078-a970-b097ec33a05b",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-70/attempt-1/results.json"
+    },
+    "task_id": "70",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-140",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "b26ab7bb-4829-4505-9667-fb829d5d6f78",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-50/attempt-1/results.json"
+    },
+    "task_id": "50",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-141",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "e39d94a0-42b0-4dbf-b213-14b592200029",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-1/attempt-1/results.json"
+    },
+    "task_id": "1",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-142",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "a11f387f-def9-4146-be03-8bbe540c1e19",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-13/attempt-3/results.json"
+    },
+    "task_id": "13",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-143",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "43c08567-94be-46db-8a98-a003040ed01f",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-14/attempt-1/results.json"
+    },
+    "task_id": "14",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-144",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "1947a6f1-8519-46e1-8f1d-0e12b233dece",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-54/attempt-2/results.json"
+    },
+    "task_id": "54",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-145",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "5a823c51-f2eb-4cfb-99fe-f865bee3860e",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-15/attempt-1/results.json"
+    },
+    "task_id": "15",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-146",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "1d28df70-1553-463a-a4c7-9cda334ca2ae",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-95/attempt-1/results.json"
+    },
+    "task_id": "95",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-147",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "254676ae-a8f4-4261-a2eb-e53832deff20",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-100/attempt-1/results.json"
+    },
+    "task_id": "100",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-148",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "a305ddc6-4ac1-43a7-a152-4ea54386c32a",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-29/attempt-2/results.json"
+    },
+    "task_id": "29",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-149",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "c63ab585-4fcc-4297-94ae-d420b4ace7f4",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-0/attempt-1/results.json"
+    },
+    "task_id": "0",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-150",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "7e70fa80-069d-44cb-81b3-8aa141309e4b",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-93/attempt-1/results.json"
+    },
+    "task_id": "93",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-151",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "16136ca4-e31f-472c-ac45-1c040b47d740",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-2/attempt-1/results.json"
+    },
+    "task_id": "2",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-152",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "81ee0f62-dd63-435c-a8f6-c89855fb3ca3",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-37/attempt-2/results.json"
+    },
+    "task_id": "37",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-153",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "b8f2b100-7953-4104-8762-f87c4dc0f123",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-84/attempt-1/results.json"
+    },
+    "task_id": "84",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-154",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "1018a3d3-3948-49cb-8527-6c16346d8778",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-9/attempt-1/results.json"
+    },
+    "task_id": "9",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-155",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "4aef76dc-bbb5-4c92-925a-c13e7e42fe06",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-30/attempt-1/results.json"
+    },
+    "task_id": "30",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-156",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "9151df98-fc1d-4ed6-a2f7-efed8f152cdc",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-102/attempt-1/results.json"
+    },
+    "task_id": "102",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-157",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "116a14f9-7195-4a62-800f-473ce014bcf1",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-16/attempt-1/results.json"
+    },
+    "task_id": "16",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-158",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "16a1122c-f5df-4df3-befc-2da019523faf",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-28/attempt-1/results.json"
+    },
+    "task_id": "28",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-159",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "01347102-a7a6-444c-9df7-ebdf5493b03e",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-69/attempt-1/results.json"
+    },
+    "task_id": "69",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-160",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "78454c72-3907-4d88-9894-2dc3c90bd311",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-69/attempt-1/results.json"
+    },
+    "task_id": "69",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-161",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "adc4b682-ce2a-4a36-8cc7-c921aed34cf7",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-68/attempt-1/results.json"
+    },
+    "task_id": "68",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-162",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "a4afbcef-8ef8-4fa8-ac4d-d5bf53a8c606",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-5/attempt-2/results.json"
+    },
+    "task_id": "5",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-163",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "4d0e4a80-f13d-4e5c-b63b-3221f2471b2f",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-33/attempt-1/results.json"
+    },
+    "task_id": "33",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-164",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "1ae56be9-6a4d-4cbc-b4b1-61f1f14cee00",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-20/attempt-1/results.json"
+    },
+    "task_id": "20",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-165",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "bc52de3b-a8ba-4cc2-afe2-3403a1182c1b",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-71/attempt-1/results.json"
+    },
+    "task_id": "71",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-166",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "4498dd55-abf7-4010-8dc7-18878a2a60fd",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-41/attempt-1/results.json"
+    },
+    "task_id": "41",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-167",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "3d078916-6516-4662-8781-e6f2bd6c4319",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-9/attempt-2/results.json"
+    },
+    "task_id": "9",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-168",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "99bab9c4-4c36-468e-a0ac-9e4f507bf69d",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-22/attempt-1/results.json"
+    },
+    "task_id": "22",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-169",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "01c690ef-500d-4b59-8ef6-20a403097246",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-34/attempt-1/results.json"
+    },
+    "task_id": "34",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-170",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "6232dbba-f74a-4752-9b8f-9fca90384d6e",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-96/attempt-1/results.json"
+    },
+    "task_id": "96",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-171",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "22a8b016-8a2d-456a-8b49-59f28042e8d8",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-33/attempt-2/results.json"
+    },
+    "task_id": "33",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-172",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "18192612-b514-4fe6-ac99-0157d327888d",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-36/attempt-1/results.json"
+    },
+    "task_id": "36",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-173",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "4e9cd3e0-c2a9-4677-8fab-84b6350c81b9",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-31/attempt-1/results.json"
+    },
+    "task_id": "31",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-174",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "c525c4dd-0e4d-473c-84d5-fa5c17dd18da",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-5/attempt-1/results.json"
+    },
+    "task_id": "5",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-175",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "640255d0-2da9-4413-98ac-75f25a6d0f27",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-43/attempt-1/results.json"
+    },
+    "task_id": "43",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-176",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "3fa998eb-a0ab-4d10-9165-7ae403424de8",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-43/attempt-1/results.json"
+    },
+    "task_id": "43",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-177",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "926b307a-d223-4b7a-a504-88404ebf0371",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-0/attempt-1/results.json"
+    },
+    "task_id": "0",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-178",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "13c2627e-5716-487c-9771-d0eeb8a01bfa",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-32/attempt-1/results.json"
+    },
+    "task_id": "32",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-179",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "25b7c940-638a-4e6d-8c66-8ea73b548f90",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-31/attempt-1/results.json"
+    },
+    "task_id": "31",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-180",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "f4c24cf3-5614-497f-ba6f-ea6c7429c31f",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-106/attempt-1/results.json"
+    },
+    "task_id": "106",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-181",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "fc6e4992-16ac-46c8-9078-7642b2d65a4c",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-17/attempt-1/results.json"
+    },
+    "task_id": "17",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-182",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "781f46f2-96d3-47a6-bfbd-e1751a50af75",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-22/attempt-1/results.json"
+    },
+    "task_id": "22",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-183",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "f80ad2f2-5834-4893-acd2-5a389be21f91",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-34/attempt-1/results.json"
+    },
+    "task_id": "34",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-184",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "a51f4db0-bcfb-4820-ae99-e65351ff3e0d",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-27/attempt-1/results.json"
+    },
+    "task_id": "27",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-185",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "dea7102a-4650-40d1-8e4a-0e3f6556efad",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-29/attempt-1/results.json"
+    },
+    "task_id": "29",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-186",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "84a415f3-3f20-451a-9e3a-0cc1c53b92ad",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-70/attempt-1/results.json"
+    },
+    "task_id": "70",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-187",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "de6f9a3a-27e3-4863-a825-9f08d13b444b",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-81/attempt-1/results.json"
+    },
+    "task_id": "81",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-188",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "b7a4e217-ef92-45f7-ae99-c8ce1f07335b",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-57/attempt-1/results.json"
+    },
+    "task_id": "57",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-189",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "9bf967cf-f593-4f12-b950-00f9a3642ac6",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-64/attempt-1/results.json"
+    },
+    "task_id": "64",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-190",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "2fc0f425-08c0-4011-aa45-a65d590ca6ce",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-68/attempt-1/results.json"
+    },
+    "task_id": "68",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-191",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "c7fe05d4-c98d-4b63-90ce-347526d602ba",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-4/attempt-1/results.json"
+    },
+    "task_id": "4",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-192",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "e2214288-4225-4d9e-9ae9-5a10660beaaf",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-99/attempt-1/results.json"
+    },
+    "task_id": "99",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-193",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "fa4d686d-5fae-4079-b295-1090cb51d025",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-45/attempt-1/results.json"
+    },
+    "task_id": "45",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-194",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "f60b6c4d-0b6e-44c4-9cc4-e4e28744076b",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-107/attempt-1/results.json"
+    },
+    "task_id": "107",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-195",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "e8b6e25e-0b75-4094-ba2a-86db7c732870",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-101/attempt-1/results.json"
+    },
+    "task_id": "101",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-196",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "20374057-9f04-49f8-bbd7-24787a311209",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-88/attempt-1/results.json"
+    },
+    "task_id": "88",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-197",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "22d75b08-5f4b-4561-ace2-cb63ad4f75c8",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-10/attempt-1/results.json"
+    },
+    "task_id": "10",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-198",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "24dd6210-3daa-4f6a-9fee-86ca47485954",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-3/attempt-1/results.json"
+    },
+    "task_id": "3",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-199",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "60b487ba-6b34-4bcc-80b9-22f6e9005b1a",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-76/attempt-1/results.json"
+    },
+    "task_id": "76",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-200",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "0866d0fd-6a90-4e13-9e36-d2232c8c11ab",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-33/attempt-1/results.json"
+    },
+    "task_id": "33",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-201",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "215e7d72-b48b-4591-8001-dc8c90a040be",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-72/attempt-1/results.json"
+    },
+    "task_id": "72",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-202",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "15389697-2d0b-443f-a07e-0aae2672bded",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-49/attempt-1/results.json"
+    },
+    "task_id": "49",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-203",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "4081e290-7b1b-46fb-97e4-8d320201c165",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-85/attempt-1/results.json"
+    },
+    "task_id": "85",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-204",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "988f9ad2-7f5a-4510-bf80-e8d04902c52a",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-8/attempt-1/results.json"
+    },
+    "task_id": "8",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-205",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "8b0b3f97-c0a4-4955-93aa-6997e6b20834",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-26/attempt-1/results.json"
+    },
+    "task_id": "26",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-206",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "06b30edd-1bd7-4317-9906-4c05adc549d4",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-97/attempt-1/results.json"
+    },
+    "task_id": "97",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-207",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "30d1ba82-2a53-4108-85ba-55b5b1948c32",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-66/attempt-1/results.json"
+    },
+    "task_id": "66",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-208",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "de04e432-be35-4fe0-8287-be3a51107d7c",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-65/attempt-1/results.json"
+    },
+    "task_id": "65",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-209",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "f018f3bd-b0a8-4350-8bd5-52c1d72d8e9b",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-25/attempt-1/results.json"
+    },
+    "task_id": "25",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-210",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "03ce8a58-abf0-43f0-8b33-e039b4bc2afc",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-57/attempt-1/results.json"
+    },
+    "task_id": "57",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-211",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "5b3087b7-42c7-45b1-96be-3e3ab7fe11fa",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-6/attempt-1/results.json"
+    },
+    "task_id": "6",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-212",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "42d5ebcb-25e7-4960-996e-9fde25dc4a52",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-11/attempt-1/results.json"
+    },
+    "task_id": "11",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-213",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "c3fe7b1d-77da-4208-941d-23db5bd8eed2",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-56/attempt-1/results.json"
+    },
+    "task_id": "56",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-214",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "e25cdc42-35d2-4947-8e2e-67c94e40d9d6",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-10/attempt-1/results.json"
+    },
+    "task_id": "10",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-215",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "c5017d63-ae83-4716-ac97-f772ebb0d34f",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-59/attempt-1/results.json"
+    },
+    "task_id": "59",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-216",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "c8987269-d4a8-4968-ba43-a8a0bc586242",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-25/attempt-1/results.json"
+    },
+    "task_id": "25",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-217",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "b6e71262-8911-4dd0-9faa-a7bba0445862",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-71/attempt-1/results.json"
+    },
+    "task_id": "71",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-218",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "d1f28cd6-a6a7-470a-81cd-f59dda9bff22",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-90/attempt-1/results.json"
+    },
+    "task_id": "90",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-219",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "01a92222-a962-4f94-9033-27000131af41",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-13/attempt-1/results.json"
+    },
+    "task_id": "13",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-220",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "63be477d-ec79-4214-94c6-4232d0147d54",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-7/attempt-1/results.json"
+    },
+    "task_id": "7",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-221",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "64f7b78f-2f40-4621-824c-a290ed3cf488",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-38/attempt-1/results.json"
+    },
+    "task_id": "38",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-222",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "ed5f8154-b451-42b4-bd40-718d2293f549",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-52/attempt-1/results.json"
+    },
+    "task_id": "52",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-223",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "5ed0f777-b1ed-4369-89c4-77bf993b5f55",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-13/attempt-1/results.json"
+    },
+    "task_id": "13",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-224",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "2d5d748b-7d78-4472-b87d-ad202d19e495",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-92/attempt-1/results.json"
+    },
+    "task_id": "92",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-225",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "41a72317-b333-491c-9b9c-f6ea692bbb7e",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-1/attempt-1/results.json"
+    },
+    "task_id": "1",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-226",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "e8e99ace-f03f-4a7b-8241-48a64b422e27",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-46/attempt-1/results.json"
+    },
+    "task_id": "46",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-227",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "122b1221-8910-4127-8c87-1f05acf38d4a",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-27/attempt-1/results.json"
+    },
+    "task_id": "27",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-228",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "d4a01f51-fd30-4bf8-a4a6-9f7cbcbca75d",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-84/attempt-1/results.json"
+    },
+    "task_id": "84",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-229",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "bb5e34d4-9dd7-4492-b07e-8f91c2a22b03",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-42/attempt-2/results.json"
+    },
+    "task_id": "42",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-230",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "8b6f1c0e-35e4-42a3-9afc-3f040e79558a",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-81/attempt-1/results.json"
+    },
+    "task_id": "81",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-231",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "bb2897aa-2958-43fa-9107-54f947a71148",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-4/attempt-1/results.json"
+    },
+    "task_id": "4",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-232",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "d479e1fa-2b36-4b18-824d-1d87b0c0b9f0",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-58/attempt-1/results.json"
+    },
+    "task_id": "58",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-233",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "4b5a3870-81a2-456b-bb7d-93f4ecefd3c6",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-51/attempt-2/results.json"
+    },
+    "task_id": "51",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-234",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "4a37766c-3f0b-4b25-b9f0-c15ccfa9ef5b",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-1/attempt-1/results.json"
+    },
+    "task_id": "1",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-235",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "40e7664c-3794-40b2-963a-cee149571944",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-12/attempt-1/results.json"
+    },
+    "task_id": "12",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-236",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "df6adab6-1f60-474e-990a-765440a7d13c",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-88/attempt-1/results.json"
+    },
+    "task_id": "88",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-237",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "a579ba1c-9fd9-4027-8a67-315720bd7622",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-82/attempt-1/results.json"
+    },
+    "task_id": "82",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-238",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "3cddfedd-b384-4bf4-9e8a-a3e10de22efe",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-18/attempt-1/results.json"
+    },
+    "task_id": "18",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-239",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "6bfed9c3-5795-47a4-b845-bd973e490987",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-92/attempt-1/results.json"
+    },
+    "task_id": "92",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-240",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "793bacd0-55e1-462d-97e1-e81226f78fbe",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-0/attempt-1/results.json"
+    },
+    "task_id": "0",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-241",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "ae1701fd-300c-422c-98f1-7e5c1f718112",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-60/attempt-1/results.json"
+    },
+    "task_id": "60",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-242",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "0a3bfa0b-c9d7-45f1-930a-a2bf058ee442",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-40/attempt-1/results.json"
+    },
+    "task_id": "40",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-243",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "7fa3b23a-54ad-42ab-9c58-5c7c282ed202",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-48/attempt-1/results.json"
+    },
+    "task_id": "48",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-244",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "d4b6e024-8b97-4dfc-bff5-1056e619f2b7",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-47/attempt-1/results.json"
+    },
+    "task_id": "47",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-245",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "8b2a9951-426e-45d6-b430-d46502c1a9fe",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-111/attempt-1/results.json"
+    },
+    "task_id": "111",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-246",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "f20a50da-390c-49f8-97ce-25b9db58ef02",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-32/attempt-1/results.json"
+    },
+    "task_id": "32",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-247",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "2256086f-4204-4ddd-95fe-afe1cf8e572c",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-6/attempt-1/results.json"
+    },
+    "task_id": "6",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-248",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "cfde0301-5c25-48d0-a265-be4fd07b5176",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-44/attempt-1/results.json"
+    },
+    "task_id": "44",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-249",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "d410a587-b2bf-4f16-9683-1a123e964950",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-1/attempt-1/results.json"
+    },
+    "task_id": "1",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-250",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "2a2cae79-405b-4f02-9c07-87e0dc4d939c",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-28/attempt-1/results.json"
+    },
+    "task_id": "28",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-251",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "cc5aa061-406a-408a-8474-640c3413749f",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-6/attempt-1/results.json"
+    },
+    "task_id": "6",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-252",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "bc310fd7-4066-456e-84bc-4fe93fe10a08",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-17/attempt-1/results.json"
+    },
+    "task_id": "17",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-253",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "1f601046-5c3e-4748-b0dc-8a63f0210881",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-58/attempt-1/results.json"
+    },
+    "task_id": "58",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-254",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "77b01e74-6542-46bc-a3f7-cc9d80f70aae",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-18/attempt-1/results.json"
+    },
+    "task_id": "18",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-255",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "dd1b30ec-6ef8-41a9-a6ba-f8393d3ca649",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-32/attempt-1/results.json"
+    },
+    "task_id": "32",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-256",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "db500064-6881-4e99-bdc7-cc6537f68085",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-40/attempt-1/results.json"
+    },
+    "task_id": "40",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-257",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "26368056-bc3d-4daf-b418-df2e54940abe",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-12/attempt-1/results.json"
+    },
+    "task_id": "12",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-258",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "28763894-f06f-4482-b64b-3de05b30116e",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-67/attempt-1/results.json"
+    },
+    "task_id": "67",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-259",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "be8c3806-a281-4b19-816f-cc57f1c79dbf",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-86/attempt-1/results.json"
+    },
+    "task_id": "86",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-260",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "05f703e1-a66c-4cf2-aa57-07892f9f964b",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-7/attempt-1/results.json"
+    },
+    "task_id": "7",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-261",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "53803387-cee6-4477-96e8-74feb4782cf9",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-2/attempt-1/results.json"
+    },
+    "task_id": "2",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-262",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "1347a3eb-2555-4b19-a784-f635c3822804",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-93/attempt-1/results.json"
+    },
+    "task_id": "93",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-263",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "12565f92-877f-434e-9b7c-e007ffcde0da",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-109/attempt-1/results.json"
+    },
+    "task_id": "109",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-264",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "4aec1223-47fe-4642-894b-a82c0c438fd7",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-44/attempt-1/results.json"
+    },
+    "task_id": "44",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-265",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "79f88bb3-6acd-4aad-bbed-df9bcff89e52",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-14/attempt-1/results.json"
+    },
+    "task_id": "14",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-266",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "89b20a84-4e14-4514-9dae-ac334d9036a0",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-27/attempt-1/results.json"
+    },
+    "task_id": "27",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-267",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "ce22a2be-8bc1-4ac8-8924-f7ac185bdfac",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-24/attempt-1/results.json"
+    },
+    "task_id": "24",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-268",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "97f8200c-958a-4a47-a452-86cea0b2bef0",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-18/attempt-1/results.json"
+    },
+    "task_id": "18",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-269",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "5d255122-f553-4f54-b0ee-b103084ffddc",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-31/attempt-1/results.json"
+    },
+    "task_id": "31",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-270",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "094948d2-3729-42e0-ba52-9f31a9b4e800",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-29/attempt-1/results.json"
+    },
+    "task_id": "29",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-271",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "2f4e6469-26fd-45f2-b739-5b323e64ae0a",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-3/attempt-1/results.json"
+    },
+    "task_id": "3",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-272",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "7782d981-562e-460f-901f-8b4f7653c739",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-40/attempt-1/results.json"
+    },
+    "task_id": "40",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-273",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "b25372aa-ceb5-4cbd-b735-0598acb40d5d",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-25/attempt-1/results.json"
+    },
+    "task_id": "25",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-274",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "90abd122-0fc7-48f3-9478-15064c22504e",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-101/attempt-1/results.json"
+    },
+    "task_id": "101",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-275",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "e73c77f8-5eb9-45d3-9e84-0a1e5902ae34",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-75/attempt-1/results.json"
+    },
+    "task_id": "75",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-276",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "d60aa214-956e-487c-9b1a-1e41b6fb4b3e",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-108/attempt-1/results.json"
+    },
+    "task_id": "108",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-277",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "eb80ba31-ddcd-4dfa-a455-d2dfd55bd1e1",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-22/attempt-1/results.json"
+    },
+    "task_id": "22",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-278",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "1feac3bd-8830-429e-8d0e-6757479dcfb2",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-62/attempt-1/results.json"
+    },
+    "task_id": "62",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-279",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "93b4a12a-2a29-4455-913d-1b1494d765a1",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-5/attempt-1/results.json"
+    },
+    "task_id": "5",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-280",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "8080d430-1a1e-452f-98aa-433c81c2dd71",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-34/attempt-1/results.json"
+    },
+    "task_id": "34",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-281",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "9b36d3d2-398d-4f62-acc7-fa11367c0a65",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-46/attempt-1/results.json"
+    },
+    "task_id": "46",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-282",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "d1b94074-a2ce-4e76-9ced-3ae54cc5cf60",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-63/attempt-1/results.json"
+    },
+    "task_id": "63",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-283",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "328bccda-602e-42ea-9aa8-1d1404dd751b",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-96/attempt-1/results.json"
+    },
+    "task_id": "96",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-284",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "7be5196e-d70f-4275-9c0e-327c916485cf",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-47/attempt-1/results.json"
+    },
+    "task_id": "47",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-285",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "18f46f82-24b8-477c-b462-cbe290c67c82",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-98/attempt-1/results.json"
+    },
+    "task_id": "98",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-286",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "6ce9a161-15f4-4712-87d1-1ea9730cf4e5",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-44/attempt-1/results.json"
+    },
+    "task_id": "44",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-287",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "fce62e3b-7213-48f9-8420-923916aa1558",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-86/attempt-1/results.json"
+    },
+    "task_id": "86",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-288",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "d66fba99-dcc6-402d-ab64-6f39e5d57b7f",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-113/attempt-1/results.json"
+    },
+    "task_id": "113",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-289",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "df092f02-97df-4e33-806f-17a9e2df1b4f",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-45/attempt-1/results.json"
+    },
+    "task_id": "45",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-290",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "7c4df0da-dda2-483b-931e-483c68af5223",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-113/attempt-1/results.json"
+    },
+    "task_id": "113",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-291",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "6592ef67-ff5a-464b-b8c1-d490982fb6f4",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-99/attempt-1/results.json"
+    },
+    "task_id": "99",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-292",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "4fd177df-e692-42b9-bfbe-81b929de02ea",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-52/attempt-1/results.json"
+    },
+    "task_id": "52",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-293",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "2343170a-0f69-476e-bcf1-199e973adaf7",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-22/attempt-1/results.json"
+    },
+    "task_id": "22",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-294",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "02415e1a-497b-405e-9173-e7a57d55bf2c",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-79/attempt-1/results.json"
+    },
+    "task_id": "79",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-295",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "1a1af48f-ccb5-4b4a-9d94-469d641ea25d",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-36/attempt-1/results.json"
+    },
+    "task_id": "36",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-296",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "7fd55c2b-6a3b-49a2-b428-01c989955829",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-82/attempt-1/results.json"
+    },
+    "task_id": "82",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-297",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "9426b009-eed5-4ace-86d1-09e7507ea030",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-38/attempt-1/results.json"
+    },
+    "task_id": "38",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-298",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "638cbce8-ed48-4024-9c0d-caab940cc4e4",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-30/attempt-1/results.json"
+    },
+    "task_id": "30",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-299",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "fe263b75-cbf0-422a-a76b-5e3f8b8a444b",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-13/attempt-1/results.json"
+    },
+    "task_id": "13",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-300",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "a3d44004-449c-4fcd-a400-7ea4bd764f53",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-78/attempt-1/results.json"
+    },
+    "task_id": "78",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-301",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "840021a2-110c-4ea8-b36a-b2fd9423bbc9",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-25/attempt-1/results.json"
+    },
+    "task_id": "25",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-302",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "c5508426-c707-431d-85db-b0e399afc562",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-3/attempt-1/results.json"
+    },
+    "task_id": "3",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-303",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "4b23ba76-ea61-43e7-ae15-c0cefd208bc1",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-55/attempt-1/results.json"
+    },
+    "task_id": "55",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-304",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "41344f70-c587-40ec-9da7-bb860d52494e",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-85/attempt-1/results.json"
+    },
+    "task_id": "85",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-305",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "9a5416c1-af1b-42f6-92df-7976d53a2520",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-56/attempt-1/results.json"
+    },
+    "task_id": "56",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-306",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "610c4974-a7a8-4dc3-a934-301ac13d8bcb",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-64/attempt-1/results.json"
+    },
+    "task_id": "64",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-307",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "4dbdc24e-5c30-4812-9ac3-79d11eda6bad",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-78/attempt-1/results.json"
+    },
+    "task_id": "78",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-308",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "c9d1cb62-f4ac-44e6-a647-6f2c3a541c6a",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-53/attempt-1/results.json"
+    },
+    "task_id": "53",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-309",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "5b16b83b-8557-43df-b003-41f468ec6675",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-83/attempt-1/results.json"
+    },
+    "task_id": "83",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-310",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "b2477e93-d54f-4f8c-8b1b-e1b7ba0b376b",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-21/attempt-1/results.json"
+    },
+    "task_id": "21",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-311",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "176648f1-6e69-46ef-b488-724fcfa583b3",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-107/attempt-1/results.json"
+    },
+    "task_id": "107",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-312",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "09ec7f10-ec64-47dc-931e-0a0ef556f36b",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-100/attempt-1/results.json"
+    },
+    "task_id": "100",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-313",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "dd5787ac-9727-41ec-ae31-5c4f95ceaed2",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-108/attempt-1/results.json"
+    },
+    "task_id": "108",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-314",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "f70f5556-7fe5-4639-a672-a84f9b059dd5",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-24/attempt-1/results.json"
+    },
+    "task_id": "24",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-315",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "a8b40d4d-80e2-4414-ae66-1ccbb856a641",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-41/attempt-1/results.json"
+    },
+    "task_id": "41",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-316",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "c8cba9c3-b80f-4011-a174-50f3b85bda33",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-48/attempt-1/results.json"
+    },
+    "task_id": "48",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-317",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "063577e9-57fd-41ec-9069-fbfc7cf2014d",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-49/attempt-1/results.json"
+    },
+    "task_id": "49",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-318",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "0629d237-e64c-4639-b656-213da27ad9bc",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-41/attempt-1/results.json"
+    },
+    "task_id": "41",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-319",
+    "domain": "airline",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "58f6d13f-93ef-4875-8aaa-7c8a7d92a506",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/airline/task-49/attempt-1/results.json"
+    },
+    "task_id": "49",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-320",
+    "domain": "retail",
+    "model_id": "openrouter/qwen/qwen3-30b-a3b",
+    "simulation_id": "1ffb5e8a-da80-45fe-8812-b834281c3495",
+    "source": {
+     "path": "full-confirm-v1/qwen3_30b/retail/task-12/attempt-1/results.json"
+    },
+    "task_id": "12",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-321",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "a45c2429-e505-46f1-a415-d15e10c9be5a",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-62/attempt-1/results.json"
+    },
+    "task_id": "62",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-322",
+    "domain": "airline",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "4898f604-32f2-42ad-9ecd-55073d1556b7",
+    "source": {
+     "path": "full-confirm-v1/glm47/airline/task-14/attempt-2/results.json"
+    },
+    "task_id": "14",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-323",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "ef7b4ad8-b88d-422f-98cf-88a3ed400339",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-73/attempt-1/results.json"
+    },
+    "task_id": "73",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-324",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "48f3fd54-9ce8-42fd-9d55-249dc4461a6a",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-63/attempt-1/results.json"
+    },
+    "task_id": "63",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-325",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "275df3a6-5c9c-43bf-b5c0-5379111d1fec",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-12/attempt-1/results.json"
+    },
+    "task_id": "12",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-326",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "0ebbc9d8-8b41-4c43-9bd1-e131e4b7e121",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-29/attempt-1/results.json"
+    },
+    "task_id": "29",
+    "trial": 0
+   },
+   {
+    "display_id": "rr-327",
+    "domain": "retail",
+    "model_id": "openrouter/z-ai/glm-4.7-flash",
+    "simulation_id": "376c61e7-bc90-4253-a5d9-071dcdba1cf1",
+    "source": {
+     "path": "full-confirm-v1/glm47/retail/task-37/attempt-1/results.json"
+    },
+    "task_id": "37",
+    "trial": 0
+   }
+  ],
+  "seed": 20261027
+ }
+}
